@@ -1,0 +1,49 @@
+body {
+    padding: 2em;
+}
+
+div.right {
+    text-align: right;
+    padding-right: 10px;
+}
+
+div.top-space {
+    margin-top: 10px;
+}
+
+div.kensaku-kekka-box-none {
+    display: none;
+}
+
+div.kensaku-kekka-box-hit {
+    padding-top: 20px;
+}
+
+span.label {
+    background:linear-gradient(transparent 60%, rgba(255, 184, 102, 0.88) 60%);
+}
+span.value {
+    background:linear-gradient(transparent 60%, rgba(196, 212, 51, 0.88) 60%);
+}
+
+._id {
+    display: inline-block;
+    position: relative;
+    top: 25%;
+}
+input[type='number']{
+    width: 50px;
+} 
+
+label._id {
+    padding-right: 10px;
+}
+
+span.copy-right {
+    font-size: 60%;
+    color: blueviolet;
+    position: relative;
+    top: -5%;
+    left: 220px;
+    display: inline-block;
+}
